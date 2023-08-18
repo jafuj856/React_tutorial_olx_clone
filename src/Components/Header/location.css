@@ -1,0 +1,49 @@
+.location{
+margin-top: 3px;
+height: 300px;
+    width: 256px;
+    padding: 5px;
+
+     z-index:1;
+      background-color: red;
+     border-radius: 5px;
+      position: fixed;
+      z-index: 1;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+      box-shadow: 0 0 5px rgb(36, 35, 35);
+}
+.unlocation{
+    margin-top: 0px;
+    height: 0;
+      position: absolute;
+      overflow-x: hidden;
+      transition: 0.4s;
+}
+ a{
+    padding-top: 10px ;
+    text-decoration:none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    line-height: 40px;
+   margin-left: 10px; 
+   cursor: pointer;
+
+}
+.unlocation a,h6{
+    padding-top: 10px ;
+    text-decoration:none;
+    color: #242424;
+    display: block;
+    transition: 0.3s;
+}
+.locationA{
+    text-decoration:underLine;
+    color:blue;
+    border-bottom: 1px solid gray;
+    padding-bottom:5px;
+    text-align: center;
+    cursor: pointer;
+}

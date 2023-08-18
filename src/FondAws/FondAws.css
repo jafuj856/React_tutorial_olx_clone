@@ -1,0 +1,15 @@
+.icondown{
+    transform: rotate(-180deg);
+    transition: .5s;
+    cursor: pointer;
+   
+
+}
+.iconup{
+    
+    transform: rotate(3deg);
+    transition: .5s;
+    cursor: pointer;
+   
+
+}

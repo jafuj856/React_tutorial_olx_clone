@@ -1,6 +1,9 @@
-import React from 'react'
-
+import React, { useContext } from 'react'
+import { PostContext } from '../context/PostContext'
 export default function Search(props) {
+  const {SetPostDetails} = useContext(PostContext)
+  console.log(props.data);
+  const productSerch = props.data;
     return( <svg
         width="25px"
         height="25px"
@@ -9,6 +12,22 @@ export default function Search(props) {
         color={props.color ? props.color :''}
         className
         fillRule="evenodd"
+        onClick={()=>{
+          if(props.data.locationSerch){
+             if(props.data.locationSerch){  
+                var  temp = props.data; 
+              SetPostDetails({temp,data:true})
+             }
+               }else if(props.data.productSerch){
+                console.log(props.data+"  from prode")
+                SetPostDetails({productSerch,data:true})
+               
+               }else{
+                alert('enter your serch')
+               }
+
+        }
+      }
       >
         <path
           className="rui-77aaa"

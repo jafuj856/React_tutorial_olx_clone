@@ -94,8 +94,7 @@
   margin-right: 5px;
 }
 
-.language svg {
-}
+
 
 .span {
   text-decoration: none;
@@ -120,21 +119,30 @@
   position: relative;
   cursor: pointer;
 }
-
+.sellMenu:hover{
+  border-radius: 25px;
+  box-shadow: 0 0 8px rgb(36, 35, 35);
+}
 .sellMenu .all {
   fill: white;
 }
 
 .sellMenu .top {
   fill: #23e5db;
+ 
 }
 
 .sellMenu .left {
+
   fill: #ffce32;
 }
 
 .sellMenu .right {
   fill: #3a77ff;
+  
+}
+.sellMenu .right:hover{
+  box-shadow: 8 8 108px rgb(3, 3, 3);
 }
 .sellMenu .sellMenuContent {
   display: flex;
@@ -161,4 +169,20 @@
   .sellMenu {
     display: none;
   }
+}
+.button{
+ background-color: rgba(102, 61, 248, 0.767);
+ color: aliceblue;
+ padding: 25%;
+ border-radius: 10px;
+}
+.button:hover{
+  cursor: pointer;
+  box-shadow: 0 0 8px rgb(36, 35, 35);
+}
+.logbutton{
+   padding: 0.5%;
+   background-color: rgba(211, 50, 10, 0.767);
+   border-radius: 10px;
+   color: aliceblue;
 }
